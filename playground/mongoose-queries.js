@@ -49,4 +49,4 @@ User.findById(id).then((user) => {
         return console.log('User not found');
     }
     console.log(user)
-}).catch((e) => console.log(e));
+}).catch((e) => console.log(e)); // typo fixed
